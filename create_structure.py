@@ -51,7 +51,6 @@ files = [
     "docs/SETUP.md",
 ]
 
-
 def create_structure():
     for folder in folders:
         Path(folder).mkdir(parents=True, exist_ok=True)
